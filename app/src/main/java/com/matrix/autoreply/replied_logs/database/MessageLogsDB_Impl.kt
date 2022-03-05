@@ -1,4 +1,4 @@
-package com.matrix.autoreply.logs.database
+package com.matrix.autoreply.replied_logs.database
 
 import kotlin.jvm.Volatile
 import androidx.room.DatabaseConfiguration
@@ -12,10 +12,10 @@ import androidx.room.RoomOpenHelper.ValidationResult
 import androidx.room.util.TableInfo.Column
 import androidx.room.util.TableInfo
 import androidx.room.InvalidationTracker
-import com.matrix.autoreply.logs.repository.AppPackageDao
-import com.matrix.autoreply.logs.repository.AppPackageDao_Impl
-import com.matrix.autoreply.logs.repository.MessageLogsDao
-import com.matrix.autoreply.logs.repository.MessageLogsDao_Impl
+import com.matrix.autoreply.replied_logs.repository.AppPackageDao
+import com.matrix.autoreply.replied_logs.repository.AppPackageDao_Impl
+import com.matrix.autoreply.replied_logs.repository.MessageLogsDao
+import com.matrix.autoreply.replied_logs.repository.MessageLogsDao_Impl
 import java.util.*
 
 class MessageLogsDB_Impl : MessageLogsDB() {

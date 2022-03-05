@@ -1,0 +1,3 @@
+TODO:
+1. Select contacts to send replies.
+2. Add some contents for replies in set custom texts.

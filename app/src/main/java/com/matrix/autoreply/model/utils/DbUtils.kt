@@ -2,10 +2,10 @@ package com.matrix.autoreply.model.utils
 
 import android.content.Context
 import com.matrix.autoreply.model.CustomRepliesData
-import com.matrix.autoreply.logs.database.MessageLogsDB
+import com.matrix.autoreply.replied_logs.database.MessageLogsDB
 import android.service.notification.StatusBarNotification
-import com.matrix.autoreply.logs.data.AppPackage
-import com.matrix.autoreply.logs.data.MessageLog
+import com.matrix.autoreply.replied_logs.data.AppPackage
+import com.matrix.autoreply.replied_logs.data.MessageLog
 
 class DbUtils(private val mContext: Context) {
     private var customRepliesData: CustomRepliesData? = null

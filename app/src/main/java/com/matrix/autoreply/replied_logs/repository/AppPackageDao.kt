@@ -1,9 +1,9 @@
-package com.matrix.autoreply.logs.repository
+package com.matrix.autoreply.replied_logs.repository
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.matrix.autoreply.logs.data.AppPackage
+import com.matrix.autoreply.replied_logs.data.AppPackage
 
 @Dao
 interface AppPackageDao {

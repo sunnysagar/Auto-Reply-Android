@@ -96,6 +96,30 @@
 
     </com.google.android.material.card.MaterialCardView>
 
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/selectAllowedContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/mainAutoReplyTextCardView"
+        tools:layout_editor_absoluteX="134dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/select_contacts"
+               android:text="Select Custom Contacts"
+               />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
     <!-- Supported app selector checklist empty card.
         Actual checklist will be generated at runtime -->
     <com.google.android.material.card.MaterialCardView
@@ -103,7 +127,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/mainAutoReplyTextCardView"
+        app:layout_constraintTop_toBottomOf="@+id/selectAllowedContacts"
         tools:layout_editor_absoluteX="134dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
